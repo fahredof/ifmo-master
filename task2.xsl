@@ -4,10 +4,10 @@
   <xsl:template match="root/графика">
     <html>
       <head>
-        <title></title>
+        <title>Task 2</title>
       </head>
       <body>
-        <h3 id="author" title="GossJS">Фахретдинов Артур</h3>
+        <h4 id="author" title="GossJS">Фахретдинов Артур</h4>
         <svg>
           <xsl:attribute name="width">
             <xsl:value-of select="@ширина"/>

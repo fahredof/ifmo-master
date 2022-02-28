@@ -4,12 +4,12 @@
   <xsl:template match="строка">
     <html>
       <head>
-        <title></title>
+        <title>Task 1</title>
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
         <script id="MathJax-script" async="true" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
       </head>
       <body>
-        <h3 id="author" title="GossJS">Фахретдинов Артур</h3>
+        <h4 id="author" title="GossJS">Фахретдинов Артур</h4>
         <math xmlns="http://www.w3.org/1998/Math/MathML">
           <mi>
             <xsl:value-of select="операнд"/>
